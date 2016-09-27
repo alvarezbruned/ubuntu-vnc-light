@@ -1,8 +1,7 @@
 version: '2'
 services:
   desktop:
-    build: .
-#    image: 'consol/ubuntu-xfce-vnc:latest'
+    image: 'albertalvarezbruned/ubuntu-vnc-light:latest'
     ports:
       - '5901:5901'
       - '6901:6901'
