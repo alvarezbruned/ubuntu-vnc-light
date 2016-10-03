@@ -9,6 +9,6 @@ services:
       - './home/:/home/'
     environment:
       - VNC_PW=mipass
-#    command: sh /home/java_install_8.sh
-#    command: sh /home/bluej_install.sh
-#    command: sh /home/netbeans_8_install.sh
+#    command: sh /root/scripts/java_install_8.sh
+#    command: sh /root/scripts/bluej_install.sh
+#    command: sh /root/scripts/netbeans_8_install.sh
