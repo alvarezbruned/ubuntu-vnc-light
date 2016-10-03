@@ -26,6 +26,9 @@ ADD .config /root/.config
 ADD Desktop /root/Desktop
 ADD scripts /root/scripts
 RUN chmod +x /root/.vnc/xstartup /etc/X11/xinit/xinitrc /root/scripts/*.sh
+COPY bluej_install.sh /home
+COPY java_install_8.sh /home
+COPY netbeans_8_install.sh /home
 
 ENTRYPOINT ["/root/scripts/vnc_startup.sh"]
 CMD ["--tail-log"]
