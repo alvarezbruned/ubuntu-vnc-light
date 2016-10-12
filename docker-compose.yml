@@ -13,4 +13,5 @@ services:
 #    command: sh /root/scripts/bluej_install.sh
 #    command: sh /root/scripts/scribus.sh
 #    command: sh /root/scripts/krita.sh
+#    command: sh /root/scripts/libreoffice-writer.sh
 #    command: sh /root/scripts/netbeans_8_install.sh
