@@ -9,9 +9,9 @@ services:
       - './home/:/home/'
     environment:
       - VNC_PW=mipass
-#    command: sh /root/scripts/java_install_8.sh
-#    command: sh /root/scripts/bluej_install.sh
-#    command: sh /root/scripts/scribus.sh
-#    command: sh /root/scripts/krita.sh
-#    command: sh /root/scripts/libreoffice-writer.sh
-#    command: sh /root/scripts/netbeans_8_install.sh
+#    command: /root/scripts/java_install_8.sh
+#    command: /root/scripts/bluej_install.sh
+#    command: /root/scripts/scribus.sh
+#    command: /root/scripts/krita.sh
+#    command: /root/scripts/libreoffice-writer.sh
+#    command: /root/scripts/netbeans_8_install.sh
