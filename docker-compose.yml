@@ -9,4 +9,5 @@ services:
       - './home/:/home/'
     environment:
       - VNC_PW=mipass
-
+      - VNC_RESOLUTION=1680x1050
+      
